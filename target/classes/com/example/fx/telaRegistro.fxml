@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="606.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="10.0" layoutY="56.0" prefHeight="6.0" prefWidth="586.0" style="-fx-background-color: #ffffff;" />
+      <Label layoutX="265.0" layoutY="14.0" text="CADASTRO" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnRegistrar" layoutX="489.0" layoutY="346.0" mnemonicParsing="false" text="REGISTRAR">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtUser" layoutX="46.0" layoutY="131.0" />
+      <Label layoutX="95.0" layoutY="104.0" text="USUARIO" textFill="#fffbfb">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="101.0" layoutY="176.0" text="SENHA" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtEmail" layoutX="46.0" layoutY="264.0" prefHeight="25.0" prefWidth="231.0" style="-fx-background-insets: #333633;" />
+      <Label layoutX="103.0" layoutY="236.0" text="EMAIL" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtPass" layoutX="46.0" layoutY="200.0" />
+   </children>
+</Pane>
